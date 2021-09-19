@@ -1,0 +1,39 @@
+.navbar {
+  background-color: $nav-colour;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navlink {
+  margin: 0px 40px;
+  padding: 10px;
+  color: $link-color;
+  text-decoration: none;
+}
+
+.navbrand {
+  color: $primary-colour;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  padding: 20px;
+}
+
+.searchbar {
+  max-width: 50%;
+  margin: 40px auto;
+  border: none;
+}
+
+.gobtn {
+  background-color: $primary-colour;
+  color: white;
+  border: none;
+}
+
+@media (min-width: 720px) {
+  .navbrand {
+    margin-left: 30px;
+  }
+}

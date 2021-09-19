@@ -1,0 +1,55 @@
+//Colors
+$primary-colour: #e92569;
+$background-colour: #ffffff;
+$nav-colour: #efefef;
+
+//Navigation
+$link-color: black;
+$navbar-light-hover-color: black;
+$nav-link-font-size: 18px;
+
+//Carousel
+$carousel-indicator-width: 20px;
+$carousel-indicator-height: 20px;
+$carousel-indicator-active-bg: $primary-colour;
+$carousel-control-prev-icon-bg: none;
+$carousel-control-next-icon-bg: none;
+
+//Accordion
+$accordion-color: $primary-colour;
+$accordion-button-active-bg: white;
+$accordion-button-active-color: $primary-colour;
+$accordion-buton-icon: none;
+$accoridon-bg: #ffffff;
+$accordion-icon-color: none;
+$accordion-icon-active-color: none;
+
+//Drop-shadows
+$drop-shadow: rgba(149, 157, 165, 0.2) 0px 6px 10px;
+$card-box-shadow: $drop-shadow;
+
+//Pagination
+$pagination-color: $primary-colour;
+$pagination-bg: white;
+$pagination-border-width: 1px;
+$pagination-border-color: $primary-colour;
+$pagination-active-color: white;
+$pagination-active-bg: $primary-colour;
+
+//Media Queries
+@media (min-width: 481px) {
+  $carousel-indicator-width: 30px;
+  $carousel-indicator-height: 30px;
+}
+
+//Imports
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400;1,600&display=swap");
+@import "./partials/navigation";
+@import "./partials/body";
+@import "./partials/accordion";
+@import "./partials/footer";
+@import "./partials/contact.scss";
+@import "./partials/news";

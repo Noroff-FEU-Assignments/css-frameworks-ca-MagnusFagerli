@@ -1,0 +1,58 @@
+.accordion {
+  max-width: 350px;
+  box-shadow: $card-box-shadow;
+  margin: 0px auto;
+}
+
+.accheader {
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom: 1px solid $primary-colour;
+}
+
+.tabimg {
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+.accordbody {
+  margin-bottom: 20px;
+  color: #767676;
+}
+
+.socials {
+  margin: 0px 30px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.share {
+  color: black;
+  font-size: 16px;
+}
+
+.twitter {
+  width: 30px;
+  height: 28px;
+  color: black;
+}
+
+.facebook {
+  width: 30px;
+  height: 28px;
+  color: black;
+}
+
+.firstparagraph {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+@media (min-width: 720px) {
+  .accordion {
+    max-width: 500px;
+    margin: 0px auto;
+  }
+}

@@ -1,0 +1,62 @@
+.contactform {
+  margin: 40px 10px;
+  background-color: #efefef;
+  border: none;
+  box-shadow: $card-box-shadow;
+  color: #767676;
+  padding: 20px;
+}
+
+.contactcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.icons {
+  color: #767676;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.contact {
+  font-size: 16px;
+  color: #767676;
+  float: right;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.some {
+  color: #767676;
+  margin: 25px 25px;
+}
+
+.form-check-input {
+  background-color: $primary-colour;
+  width: 34px;
+  height: 33px;
+  border: none;
+  margin-right: 5px;
+}
+
+.submitbtn {
+  margin-top: 20px;
+  background-color: #767676;
+  font-size: 22px;
+  width: 100%;
+}
+
+@media (min-width: 1280px) {
+  .contactform {
+    max-width: 800px;
+    margin: 50px 50px;
+  }
+
+  .contactcontainer {
+    float: right;
+    margin: 100px;
+  }
+}

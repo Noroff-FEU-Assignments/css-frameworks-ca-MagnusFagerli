@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: $background-colour;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4rem;
+}
+
+h1 {
+  color: $primary-colour;
+  font-family: "Playfair Display", serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+  padding-bottom: 2rem;
+}
+
+footer {
+  flex-shrink: 0;
+  background: white;
+  text-align: center;
+  font-size: 0.9rem;
+  max-width: 1280px;
+}
